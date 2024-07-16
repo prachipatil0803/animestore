@@ -1,0 +1,48 @@
+/* Navbar container styling */
+.navbar {
+  background-color: #ff4500;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: slideDown 0.5s ease-in-out;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #87ceeb;
+  transform: scale(1.1);
+}
+
+.navbar a:last-child {
+  margin-right: 0;
+}
+
+/* Add a little animation to the navbar appearance */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
