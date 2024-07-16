@@ -1,0 +1,66 @@
+/* UpdateAnime.css */
+
+.update-anime-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-anime-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-anime-form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.update-anime-form input[type="text"],
+.update-anime-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.update-anime-form textarea {
+  height: 100px;
+}
+
+.update-anime-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.update-anime-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.memo {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .update-anime-container {
+    padding: 10px;
+  }
+
+  .update-anime-form input[type="submit"] {
+    font-size: 14px;
+  }
+}

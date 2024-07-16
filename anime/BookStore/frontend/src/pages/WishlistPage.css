@@ -1,0 +1,38 @@
+/* WishlistPage.css */
+
+.wishlist-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wishlist-list {
+  list-style: none;
+  padding: 0;
+}
+
+.wishlist-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.wishlist-details {
+  margin-bottom: 10px;
+}
+
+.wishlist-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.wishlist-item p {
+  margin-bottom: 5px;
+}
+
+.wishlist-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Additional styles as per your design */

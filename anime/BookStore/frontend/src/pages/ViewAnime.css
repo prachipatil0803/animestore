@@ -1,0 +1,104 @@
+/* Container styling */
+.view-anime-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Anime list styling */
+.anime-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Anime item styling */
+.anime-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.anime-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Anime image styling */
+.anime-image {
+  max-width: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Anime details styling */
+.anime-details {
+  flex-grow: 1;
+}
+
+.anime-details h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333333;
+}
+
+.anime-details p {
+  margin: 5px 0;
+  color: #666666;
+  font-size: 16px;
+}
+
+.aired-select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Buttons styling */
+.delete-button,
+.update-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.update-button {
+  background-color: #007bff;
+  margin-left: 10px;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
